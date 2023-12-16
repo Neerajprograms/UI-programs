@@ -1,0 +1,102 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+public class BallGame extends JPanel implements KeyListener {
+    private int ballX = 0;          // x-coordinate of the ball
+    private int ballY = 0;          // y-coordinate of the ball
+    private int ballRadius = 20;    // radius of the ball
+    private int ballXSpeed = 2;     // speed of the ball along the x-axis
+    private int ballYSpeed = 2;     // speed of the ball along the y-axis
+
+    private int paddleX = 200;      // x-coordinate of the paddle
+    private int paddleY = 350;      // y-coordinate of the paddle
+    private int paddleWidth = 80;   // width of the paddle
+    private int paddleHeight = 10;  // height of the paddle
+
+    private boolean isRunning = true;
+
+    public BallGame() {
+        setPreferredSize(new Dimension(400, 400));
+        setBackground(Color.BLACK);
+        setFocusable(true);
+        addKeyListener(this);
+
+        Thread gameThread = new Thread(() -> {
+            while (isRunning) {
+                moveBall();
+                checkCollision();
+                repaint();
+
+                try {
+                    Thread.sleep(10);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        gameThread.start();
+    }
+
+    private void moveBall() {
+        ballX += ballXSpeed;
+        ballY += ballYSpeed;
+
+        // Reverse the direction if the ball reaches the edges
+        if (ballX >= getWidth() - ballRadius || ballX <= 0) {
+            ballXSpeed = -ballXSpeed;
+        }
+        if (ballY >= getHeight() - ballRadius || ballY <= 0) {
+            ballYSpeed = -ballYSpeed;
+        }
+    }
+
+    private void checkCollision() {
+        if (ballY + ballRadius >= paddleY && ballX >= paddleX && ballX <= paddleX + paddleWidth) {
+            // Ball collided with the paddle, change its direction
+            ballYSpeed = -ballYSpeed;
+        }
+    }
+
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+        g.setColor(Color.WHITE);
+        g.fillOval(ballX, ballY, ballRadius, ballRadius);  // Draw the ball
+        g.fillRect(paddleX, paddleY, paddleWidth, paddleHeight);  // Draw the paddle
+    }
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+        int keyCode = e.getKeyCode();
+        if (keyCode == KeyEvent.VK_LEFT) {
+            paddleX -= 10;
+        } else if (keyCode == KeyEvent.VK_RIGHT) {
+            paddleX += 10;
+        }
+    }
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+        // Not used
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+        // Not used
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("Ball Game");
+            BallGame game = new BallGame();
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setResizable(false);
+            frame.add(game);
+            frame.pack();
+            frame.setLocationRelativeTo(null);
+            frame.setVisible(true);
+        });
+    }
+}
