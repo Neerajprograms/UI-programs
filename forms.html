@@ -12,9 +12,10 @@
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEw_0FKCMIfM5Ij7UYylE4o6fsAmqVOYICQ&usqp=CAU"
             alt=""
           /><br />
-          <h2>STUDENT LOGIN</h2>
+          <h2>STUDENT REGISTRATION</h2>
         </caption>
         <tr>
+            <form action="main.php" method="post">
           <td style="width: 34%"></td>
 
           <td style="width: 23%">
@@ -31,30 +32,32 @@
             <label for="EMAIL">EMAIL</label>
             <br /><br /><br />
             <label for="ADDRESS">ADDRESS</label>
+            <br /><br /><br />
+            <label for="document">DOCUMENT</label>
           </td>
           <td style="width: 50%">
             <input
               id="NAME"
               name="name"
-              type="string"
+              type="name"
               placeholder="Enter Name"
             />
             <br /><br /><br />
             <input
-              id="GENDER"
+              id="Gender"
               name="Gender"
-              type="string"
-              name=""
-              id=""
-              placeholder="Enter Gender"
+              type="radio"
             />
+            <label for="Gender">Male</label>
+            <input type="radio" name="Gender" id="female">
+            <label for="female">Female</label>
             <br /><br /><br />
             <input type="date" name="date" id="BORTH" />
             <br /><br /><br />
             <input
               id="EDUCATION"
               name="Education"
-              type="text"
+              type="education"
               placeholder="Enter Education"
             />
             <br /><br /><br />
@@ -75,17 +78,19 @@
             <input
               id="ADDRESS"
               name="Addrass"
-              type="text"
+              type="addrass"
               placeholder="Enter Addrass"
             />
+            <br /><br /><br />
+            <input type="file" name="file" id="document" />
           </td>
         </tr>
       </table>
-
       <pre>
                                         
-                                                                                <button type="submit">SUBCRIBE</button>              <button>RESET</button>
+                                                                                <input type="submit" value="SUBMIT">              <input type="reset" value="RESET">
 </pre>
+</form>
     </div>
   </body>
 </html>
