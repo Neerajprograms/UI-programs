@@ -1,0 +1,67 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: bisque;
+    
+}
+.div
+{
+    display: flex;
+}
+.myprojects h1
+{
+    background-color:rgb(223, 175, 103);
+    text-align: center;
+    text-shadow: 1px 4px 3px;
+}
+.dropdown
+{
+    text-decoration: none;
+}
+.dropdown li a
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.starting
+{
+    border-color: antiquewhite;
+    text-decoration: none;
+    background-color: rgb(209, 119, 179) ;
+    height: 605px;
+    width: 300px;
+    text-align: center;
+    
+}
+.starting :hover
+{
+    text-overflow: ellipsis;
+    color: black;
+    text-wrap: 10px;
+    
+}
+
+.starting h1
+{
+    color: black;
+    text-shadow: 1px 2px 4px;
+}
+.starting li
+{
+    padding: 30px;
+    text-decoration: none;
+}
+.myinfo
+{
+    
+}
+.myinfo img
+{
+    width: 1100px;
+    height: 605px;
+}

@@ -3,15 +3,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form2</title>
+    <link rel="stylesheet" href="form2.ccs">
   </head>
   <body>
-    <form action="main.php" method="get">
-     <div>
-          <img src="https://classes.nareshit.com/my-account/static/media/login_bg.25e1eac2.png" alt="Naresh it" width="840">
-     </div>
-     <div>
-      <img    src="./images/new pic naresh it.png" alt="naresh it">
-     </div>
+    <form action="main.php" class="form" >
+      <section class="starting" style="height: 100%; width: 100%;">
+      <div class="firefox">
+        <img
+          class="firefox"
+          src="chrome://branding/content/firefox-wordmark.svg"
+          alt="neeraj">
+        </div>
+      <div class="main-body">
+        <h2 class="rigistration">RISTRATION FORM</h2>
+        <div class="options">
+          <div class="name">
+            Name
+            <input
+              class="namebox"
+              type="text"
+              name=""
+              id="name"
+              placeholder="Enter Name"
+            />
+          </div>
+          <div class="gender">
+            Gender
+              <input type="radio" name="male" id="male" />
+              <label for="male">Male</label>
+              <input type="radio" name="female" id="female" />
+              <label for="fmale">Fmale</label>
+          </div>
+          <div class="dateofborth">
+            DATE OF BORTH <input type="date" name="borth" id="borth" />
+          </div>
+          <div class="education">
+            EDUCATION <input type="string" name="education" id="education" />
+          </div>
+          <div class="number">
+            MOBILE NO <input type="number" name="number" id="numbere" />
+          </div>
+          <div class="email">
+            EMAIL <input type="mail" name="mail" id="mail" />
+          </div>
+          <div class="addrass">
+            ADDRESS <input type="text" name="addrass" id="addrass" />
+          </div>
+          <div class="file">
+            DOCUMENT <input type="file" name="file" id="file" />
+          </div>
+          <div class="submit">
+            <input type="button" value="submit" id="submit" />
+            <input type="button" name="reset" id="reset" value="reset" />
+          </div>
+        </div>
+      </div>
+    </section>
     </form>
   </body>
 </html>

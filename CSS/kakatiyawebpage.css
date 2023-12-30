@@ -1,0 +1,93 @@
+*
+{
+    padding :0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.startborder
+{
+    border: 2px solid black;
+    width: 1370px;
+    height: 6px;
+    background-color: black;
+    margin: 0%;
+}
+.firstpic
+{
+    align-items: center;
+    height: 95px;
+    
+}
+.kakatiyamain
+{
+    border-radius: 40px;
+    border: 1px solid beige;
+}
+
+.head
+{
+    background-color: rgb(202, 199, 199);
+    margin: 0%;
+}
+
+.headnav
+{
+    height: 120px;
+   background-color: rgb(33, 5, 112);
+}
+
+.dropdown
+{
+    margin: 0%;
+    padding: 7px;
+    size: 100px;
+    padding-top: 14px;
+    display: flex;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.dropdown a
+{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.dropdown li
+{
+    margin: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px;
+    box-shadow: 2px 4px ;
+
+}
+.dropdown li  :hover
+{
+    color: aqua;
+    
+}
+.dropdown2nd
+{
+    margin: 0%;
+    padding: 7px;
+    size: 100px;
+    padding-top: 14px;
+    display: flex;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.dropdown2nd a
+{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.dropdown2nd li
+{
+    margin: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px;
+    box-shadow: 2px 4px ;
+}
