@@ -16,7 +16,7 @@ body
 {
     background-color:rgb(223, 175, 103);
     text-align: center;
-    text-shadow: 1px 4px 3px;
+    text-shadow: 1px 4px 5px;
 }
 .dropdown
 {
@@ -49,7 +49,7 @@ body
 .starting h1
 {
     color: black;
-    text-shadow: 1px 2px 4px;
+    text-shadow: 2px 3px 5px;
 }
 .starting li
 {

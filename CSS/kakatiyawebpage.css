@@ -58,10 +58,14 @@
 {
     margin: 1px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 8px;
+    padding: 7px;
     box-shadow: 2px 4px ;
-
 }
+.dropdown li a 
+{
+   
+}
+
 .dropdown li  :hover
 {
     color: aqua;
