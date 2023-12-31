@@ -3,9 +3,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
+    <link rel="stylesheet" href="forms.css">
   </head>
   <body>
-    <div>
+    <div class="main">
       <table style="width: 100%">
         <caption>
           <img
@@ -14,12 +15,12 @@
           /><br />
           <h2>STUDENT REGISTRATION</h2>
         </caption>
-        <tr>
+        <tr class="firsttr">
             <form action="main.php" method="post">
-          <td style="width: 34%"></td>
-
-          <td style="width: 23%">
-            <label for="NAME">NAME</label>
+          <td style="width: 32%" class="firesttd"></td>
+      <div class="contenttd">
+          <td style="width: 23% ;" class="secondtd">
+            <label for="NAME" class="lable">NAME</label>
             <br /><br /><br /><br />
             <label for="GENDER">GENDER</label>
             <br /><br /><br />
@@ -35,7 +36,7 @@
             <br /><br /><br />
             <label for="document">DOCUMENT</label>
           </td>
-          <td style="width: 50%">
+          <td style="width: 5;" class="therdtd">
             <input
               id="NAME"
               name="name"
@@ -84,13 +85,18 @@
             <br /><br /><br />
             <input type="file" name="file" id="document" />
           </td>
+        </div>
+
+          <td class="forthtd">
+
+          </td>
         </tr>
       </table>
-      <pre>
-                                        
-                                                                                <input type="submit" value="SUBMIT">              <input type="reset" value="RESET">
-</pre>
+      <div class="submit">             
+<input type="submit" value="SUBMIT">
+<input type="reset" value="RESET">
+ </div>
 </form>
-    </div>
-  </body>
+</div>
+</body>
 </html>
