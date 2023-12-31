@@ -5,6 +5,10 @@
     box-sizing: border-box;
     
 }
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .startborder
 {
     border: 1px solid black;
@@ -188,10 +192,18 @@
 }
 .afterimagediv h4
 {
-    border: 1px solid;
+    border: 0.5px solid;
     padding: 12px;
     border-radius: 0px 20px 0px  0px;
     background-color: violet;
+    text-align: center;
+
+}
+.maintable
+{
+    
+    width: 250px;
+    border: 0.5px solid;
 }
 .tabledatapic
 {
@@ -220,11 +232,13 @@
     
     background-color:aqua;
     border: none;
+    
 }
 .tabledatacontent a
 {
     text-decoration: none;
     padding-left: 8px;
+    
 }
 
 .tabledatacontent :hover
@@ -236,10 +250,15 @@
 {
     background-color: azure;
 }
-.tabledatacontent :hover 
+.medileboxtitle h1:hover
+{
+    color: blue;
+    text-shadow: 1px 2px 3px;
+}
 .medilebox
 {
-    width: 2200px;
+    width: 2100px;
+    height: 500px;
     background-color: rgb(246, 248, 248);
 }
 .medilebox p
@@ -252,13 +271,14 @@
 }
 .marqueetag
 {
-    padding: 25px;
+    padding : 25px;
 }
 
 .marqueetag a
 {
     background-color: bisque;
-    
+    text-decoration: none;
+    padding-bottom : 55px;
 }
 
 .therdbox
