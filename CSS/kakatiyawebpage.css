@@ -257,16 +257,17 @@ body
 }
 .medilebox
 {
-    width: 2100px;
-    height: 500px;
     background-color: rgb(246, 248, 248);
+    height: 700px;
 }
 .medilebox p
 {
+    
     padding-top: 15px;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 16px;
     padding-bottom: 20px;
+    line-height: 2.0;
 
 }
 .marqueetag
@@ -283,20 +284,17 @@ body
 
 .therdbox
 {
-    width: 500px;
-    padding-left: 20px;
+    width: 700px;
+    padding-left: 18px;
     padding-top: 20px;
 
 }
 .firestpicboxfirst
 {
-    
     border: 1px solid;
     width: 182px;
     background-color: rgb(90, 203, 201);
-    
 }
-
 
 .firestpicboxfirst .firestpicbox img
 {
@@ -305,6 +303,10 @@ body
     padding-bottom: 4px;
     padding-right: 10px ;
 }
+.firestpicbox :hover
+{
+    background-color: aliceblue;
+}
 
 .firestpicbox img
 {
@@ -312,6 +314,7 @@ body
     height: 160px;
     text-decoration: none;
 }
+
 
 .firestpicbox a
 {
@@ -327,14 +330,14 @@ body
     width: 180px;
     padding-top: 6px;
 }
-.profname :hover
+.profname:hover
 {
     background-color: aliceblue;
 }
 .texthover
 {
     color: rgb(8, 78, 105);
-    padding: 7px;
+    padding: 4px;
 }
 .texthover:hover
 {
