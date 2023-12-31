@@ -5,7 +5,7 @@
 }
 body
 {
-    background-color: bisque;
+    background-color: rgb(165, 108, 108);
     
 }
 .div
@@ -14,10 +14,11 @@ body
 }
 .myprojects h1
 {
-    background-color:rgb(223, 175, 103);
+    background: url(images/Untitled2.jpeg);
     text-align: center;
     text-shadow: 1px 4px 5px white;
     cursor: default;
+    border-radius: 10px;
     
 }
 .dropdown
@@ -28,23 +29,28 @@ body
 {
     text-decoration: none;
     color: aliceblue;
+    font-size: 22px;
 }
 
 .starting
 {
     border-color: antiquewhite;
     text-decoration: none;
-    background-color: rgb(209, 119, 179) ;
+    background: url(images/images1.jpeg);
+    background-size: 200px 610px;
+    opacity: 0.9;
     height: 605px;
     width: 300px;
     text-align: center;
+    border-radius: 30px;
+    
     
 }
 .starting :hover
 {
-    text-overflow: ellipsis;
-    color: black;
-    text-wrap: 10px;
+    padding-left: 10px;
+    color:black;
+    text-shadow: 1px 3px 6px;
     
 }
 
@@ -52,6 +58,11 @@ body
 {
     color: black;
     text-shadow: 2px 3px 5px;
+}
+.starting h1:hover
+{
+    color: white;
+    text-shadow: 3px 4px 5px;
 }
 .starting li
 {
@@ -61,10 +72,9 @@ body
 }
 .myinfo
 {
-    
+   
+    background: url(images/photo-1555066931-4365d14bab8c.avif);
+    width: 1080px;
+    border-radius: 20px;
 }
-.myinfo img
-{
-    width: 1100px;
-    height: 605px;
-}
+
