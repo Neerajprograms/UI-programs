@@ -12,7 +12,7 @@ body
 .startborder
 {
     border: 1px solid black;
-    width: 1366px;
+    width: 1364px;
     height: 6px;
     background-color: black;
     margin: 0%;
@@ -205,35 +205,35 @@ body
     width: 250px;
     border: 0.5px solid;
 }
+.tablerow
+{
+    background-color:aqua;
+}
+.tablerow:hover
+{
+    background-color: azure;
+}
+
 .tabledatapic
 {
     
     text-align: center;
     justify-self: center;
-    background-color: aqua;
+    
     padding-top: 10px;
     width: 20px;
     border: none;
     margin: 0%;
     text-align: center;
 }
-.tabledatapic:hover
-{
-    background-color: azure;
-}
+
 .tabledatapic img
 {
     width: 9px;
     height:9px;
     
 }
-.tabledatacontent
-{
-    
-    background-color:aqua;
-    border: none;
-    
-}
+
 .tabledatacontent a
 {
     text-decoration: none;
@@ -246,10 +246,8 @@ body
     color: red;
     
 }
-.tabledatacontent:hover
-{
-    background-color: azure;
-}
+
+
 .medileboxtitle h1:hover
 {
     color: blue;
@@ -270,6 +268,10 @@ body
     line-height: 2.0;
 
 }
+.mainmartag
+{
+    padding-top: 16px;
+}
 .marqueetag
 {
     padding : 25px;
@@ -279,7 +281,7 @@ body
 {
     background-color: bisque;
     text-decoration: none;
-    padding-bottom : 55px;
+    padding-bottom : 65px;
 }
 
 .therdbox
@@ -342,14 +344,14 @@ body
 .texthover:hover
 {
    
-    color: red;
+    color: red  ;
 }
 hr
 {
     border: none;
     width: 2px;
     padding-left: none;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
 }
 .secondpicboxsecond
 {
