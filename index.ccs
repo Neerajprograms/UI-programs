@@ -39,7 +39,7 @@ body
     background: url(images/images1.jpeg);
     background-size: 200px 610px;
     opacity: 0.9;
-    height: 605px;
+    height: 700px;
     width: 300px;
     text-align: center;
     border-radius: 30px;
@@ -48,7 +48,7 @@ body
 }
 .starting :hover
 {
-    padding-left: 10px;
+    padding-left: 6px;
     color:black;
     text-shadow: 1px 3px 6px;
     
@@ -75,6 +75,7 @@ body
    
     background: url(images/photo-1555066931-4365d14bab8c.avif);
     width: 1080px;
+    height: 700px;
     border-radius: 20px;
 }
 
