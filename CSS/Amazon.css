@@ -2,70 +2,97 @@
 {
     margin: 0px;
     padding: 0%;
-    
+        
+}
+.startingnv
+{
     
 }
+
 .innerdiv
 {
-    border: 1px solid;
+   
     height: 53px;
     display: flex;
+    background-color: black;
     
 }
 
 .amazonediv
 {
-    border: 1px solid;
-    width: 340px;
+    width: 345px;
     display: flex;
+    padding-top: 1px;
 }
+
 .amazonlogo
 {
-    border: 1px solid;
     width: 135px;
-    margin: 0%;
+    
+    padding-top: 1px;
+    
+   
 }
+.amazonlogo img
+{
+    gap: 0px;
+    
+    width: 133px;
+    height: 50px;
+    
+}
+
 .amazonin
 {
-    font-size: 17px;
+    font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blue;
-    padding-bottom: 5px ;
+    margin-left: 0px;
+    gap: 0px;
+    
 }
 .deleveryupdate
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
+    padding-left: 2px;
+    padding-top: 3px;
+    border-radius: 5px;
+    width: 210px;
 }
+
 .deleveryupdatetext
 {
-    padding-top: 6px;
+    padding-top: 3px;
+    height: 48px;
 }
 .deleveryupdatetext a
 {
-    color: blue;
+    color: black;
+    text-decoration: none;
 }
 .deleveryupdate .span1
 {
     font-size: 12px;
-    padding-left: 16px;
+    padding-left: 20px;
     padding-right: 0px;
+    padding-bottom: 9px;
 }
 .deleveryupdate .span2
 {
-    padding-left: 2px;
+    padding-left: 10px;
+    font-size: 15px;
 }
 
 
 .searchbardiv
 {
-    border: 1px solid;
+    
     width: 620px;
 
 }
 .Allinner
 {
-    padding-top: 7px;
+    padding-top: 9px;
+    font-size: 15px;
 }
 .searchbardivinside
 {
@@ -75,37 +102,39 @@
 }
 .searchallbox
 {
-    border: 1px solid;
+    
     width: 40px;
-    height: 34px;
+    height: 40px;
     text-align: center;
     background-color: antiquewhite;
+    border-radius: 7px 0px 0px 7px;
 }
 .inputbox input
 {
-    width: 400px;
-    height: 36px;
+    width: 500px;
+    height: 40px;
 }
+
 .glasscop
 {
-    border: 1px solid;
-    width: 40px;
-    height: 34px;
+    
+    width: 45px;
+    height: 40px;
     text-align: center;
     background-color: chocolate;
+    border-radius: 0px 7px 7px 0px ;
 }
 .glasscop i
 {
-    padding-top: 7px;
-    
+    padding-top: 10px;
+    font-size: 20px;
+    color: black;
 }
 .Languagesignindiv
 {
-    border: 1px solid;
-    width: 400px;
-    column-gap: 10px;
     
-    
+    width: 400px; 
+    gap: 3px;
 }
 .Languageflgouter
 {
@@ -114,20 +143,23 @@
 }
 .Languageflg
 {
-    border: 1px solid;
+    
     text-align: center;
-    width: 60px;
+    width: 70px;
     height: 44px;
     justify-content: center;
-    
+    border-radius: 3px;
 }
 .Languageflginnerbox
 {
-    padding-top: 10px;
+    padding-top: 6px;
+    justify-items: center;
 }
 .Languageflg img
 {
     width: 15px;
+    height: 35px;
+    justify-items: center;
 
 }
 .Languageflg .entext
@@ -135,10 +167,11 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
     font: bolder;
+    justify-content: center;
 }
 .Languageflg i
 {
-    width: 3px;
+    width: 5px;
 }
 .Languagesignindiv
 {
@@ -146,38 +179,151 @@
 }
 .sininouter
 {
-    
     padding-top: 4px;
 }
 .sinin
 {
-    border: 1px solid;
-    width: 140px;
-    height: 43px;
+    
+    width: 150px;
+    height: 44px;
+    border-radius: 5px;
+}
+
+.sinin .span1hello
+{
+    font-size: 12px;
+    padding-left: 6px;
+}
+.sinin .acountslist
+{
+    font-size: 15px;
+    padding-left: 7px ;
+    width: 10px;
 }
 .retarningouter
 {
     padding-top: 4px;
+
 }
 .retarning
 {
-    border: 1px solid;
-    width: 80px;
-    height: 43px;
+    
+    width: 84px;
+    height: 44px;
+    border-radius: 5px;
+}
+
+.retarningouter .span1retar
+{
+    font-size: 13px;
+    padding-left: 4px;
+}
+.retarningouter .retarnorder
+{
+    font-size: 15px;
+    padding-left: 10px;
 }
 .cartsimble
 {
-    padding-top: 3px;
+    padding-top: 6px;
 }
 .cart   img
 {
-    border: 1px solid;
+    
     width: 72px;
     height: 45px;
 }
 
-
-a
+.innerdiv a
+{
+    text-decoration: none;
+    color: white;   
+}
+a img
 {
     text-decoration: none;
 }
+.navigationbarecond
+{
+    
+    gap: 0px;
+    margin: 0px;
+    height: 60px;
+    padding-top: 1px;
+}
+.navigationbarouter
+{
+   
+   height: 48px;
+   display: flex;  
+   background-color: rgb(40, 41, 40);
+   
+   
+}
+.alltheotionsbox
+{
+    
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    padding-top: 2px;
+    color: white;   
+
+}
+.Alloptionfirst
+{
+    
+    width: 30px;
+    
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+    
+}
+.allthelitemdiv
+{
+  
+  
+}
+.allthelitemdiv ul
+{
+
+    display: flex;
+    
+    
+     
+}
+.allthelitemdiv ul li
+{
+    
+    border-radius: 4x;
+    font-size: 11px;
+    margin: 0%;
+    width: 96px;
+    height: 40px;
+    text-align: center;
+    list-style: none;
+    padding-top: 14px;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.allthelitemdiv ul li a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.therdnavimg
+{
+    
+    width: 370px;
+     
+}
+.therdnavimg a img
+{
+ width: 370px;
+ height: 45.5px;
+ border-radius: 3px;
+ 
+}
+
