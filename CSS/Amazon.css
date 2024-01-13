@@ -290,7 +290,7 @@ a img
    
    height: 46px;
    display: flex;  
-   background-color: rgb(40, 41, 40);
+   background-color: #000;
    
    
 }
@@ -368,3 +368,176 @@ a img
  
 }
 
+.carousel-outer
+{
+    border: 1px solid;
+    padding: 30px;
+    display: flex;
+    gap: 25px;
+    background-color:antiquewhite;
+}
+
+.borderfirstboxtvs
+{
+    border: 1px solid;
+    width: 300px;
+    height: 360px;
+    padding : 15px;
+    background-color: white;
+    
+}
+.firsttwotvs
+{
+    display: flex;
+    gap: 15px;
+}
+.firsttwotvs p
+{
+    font-size: 11px;
+    font: bolder;
+}
+.imgtvs
+{
+    width: 100px;
+    height: 60px;
+}
+.borderfirstboxtvs a
+{
+    text-decoration: none;
+    color: #000;
+}
+.borderfirstboxtvs .bold
+{
+    padding-bottom: 10px;
+    font: bolder;
+}
+.Alldeals a
+{
+    font-size: 12px;
+    color: blue;
+}
+
+.secondtwotvs
+{
+    display: flex;
+    gap: 10px;
+    
+}
+.secondtwotvs p
+{
+    font-size: 11px;
+    font: bolder;    
+}
+.Alldeals a
+{
+    font-size: 14px;
+}
+.Alldeals a:hover
+{
+    color: brown;
+    text-decoration: underline;
+}
+.Electronicsaccessories
+{
+    border: 1px solid;
+    width: 300px;
+    height: 360px;
+    padding : 15px;
+    background-color: white;
+}
+.Electronicshedding .bold
+{
+    font-size: 20px;
+    font: bolder;
+    padding-bottom: 8px;
+    
+}
+.Electronicsimg
+{
+    gap: 20px;
+    padding-bottom: 11px;
+}
+.Electronicsimg img
+{
+    width: 260px;
+    height: 240px;
+       
+}
+
+.ElectronicsAlldeals a
+{
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+    
+    
+}
+.ElectronicsAlldeals a:hover
+{
+    color: brown;
+    text-decoration: underline;
+}
+
+.bordertharedboxtvs
+{
+    border: 1px solid;
+    width: 300px;
+    height: 360px;
+    padding : 15px;
+    background-color: white;
+}
+.bordertharedboxtvs .bold
+{
+    padding-bottom: 10px;
+    font: bolder;
+}
+.theredfirstbox a
+{
+    text-decoration: none;
+    color: #000;
+}
+.theredfirstbox
+{
+    display: flex;
+    gap: 15px;
+}
+.theredfirstbox p
+{
+    font-size: 12px;
+    font: bolder;
+
+}
+.theredfirstbox img
+{
+    padding-bottom: 5px;
+}
+.theredsecondbox img
+{
+    padding-bottom: 5px;
+}
+.theredsecondbox a
+{
+    text-decoration: none;
+    color: #000;
+}
+.theredsecondbox
+{
+    display: flex;
+    gap: 15px;
+}
+.theredsecondbox p
+{
+    font-size: 11px;
+    font: bolder;
+}
+.thredboxAlldeals a
+{
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+}
+.thredboxAlldeals a:hover
+{
+    color: brown;
+    text-decoration: underline;
+}
