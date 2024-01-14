@@ -4,9 +4,9 @@
     padding: 0%;
         
 }
-.startingnv
+.mainbody
 {
-    
+    font-family: Tahoma, sans-serif
 }
 
 .innerdiv
@@ -384,7 +384,7 @@ a img
     border: 5px solid ;
     
 }
-
+/*------------------------------------firest big box----------------------------------------------------*/
 .carousel-outer
 {
     padding: 20px;
@@ -396,7 +396,7 @@ a img
     border: inherit;
     
 }
-
+/*-----------------------------------------first big box firest--------------------------------------------------------------*/
 .borderfirstboxtvs
 {
     
@@ -435,6 +435,7 @@ a img
 {
     padding-bottom: 10px;
     font: bolder;
+    font-weight: 1000;
 }
 .Alldeals a
 {
@@ -451,7 +452,8 @@ a img
 .secondtwotvs p
 {
     font-size: 11px;
-    font: bolder;    
+    font: bolder;  
+      
 }
 .Alldeals a
 {
@@ -462,6 +464,9 @@ a img
     color: brown;
     text-decoration: underline;
 }
+
+/*------------------------------first big box second items---------------------------------------------------*/
+
 .Electronicsaccessories
 {
     
@@ -475,6 +480,7 @@ a img
     font-size: 20px;
     font: bolder;
     padding-bottom: 10px;
+    font-weight: 1000;
     
 }
 .Electronicsimg
@@ -502,7 +508,7 @@ a img
     color: brown;
     text-decoration: underline;
 }
-
+/*---------------------------------first big box third items----------------------------------*/
 .bordertharedboxtvs
 {
     
@@ -515,6 +521,7 @@ a img
 {
     padding-bottom: 10px;
     font: bolder;
+    font-weight: 1000;
 }
 .theredfirstbox a
 {
@@ -572,6 +579,8 @@ a img
     color: brown;
     text-decoration: underline;
 }
+/*------------------------------------------firset big box fourth items--------------------------------------------------------------*/
+
 .borderfourthdboxtvs
 {
     
@@ -584,6 +593,7 @@ a img
 {
     padding-bottom: 10px;
     font: bolder;
+    font-weight: 1000;
 }
 .fourthfirstbox 
 {
@@ -641,6 +651,7 @@ a img
     background-color:rgb(250, 241, 243);
     border: inherit;
 }
+/*-------------------------------------second big box firest---------------------------------------------------------*/
 .seconditemsboxinner
 {
     width: 310px;
@@ -653,12 +664,12 @@ a img
 {
     padding-bottom: 10px;
     font: bolder;
+    font-weight: 1000;
 }
 .secondinnerboxmobileair
 {
     display: flex;
     gap: 15px;
-    
     padding-bottom: 20px;
 }
 .seconderypic a
@@ -702,11 +713,6 @@ a img
     font-weight: 1000;
 }
 
-
-.secondseocondmobile
-{
-
-}
 .secondboxsecondimgmobile a
 {
     text-decoration: none;
@@ -851,6 +857,7 @@ a img
 {
     padding-bottom: 10px;
     font: bolder;
+    font-weight: 1000;
 }
 .secondboxfirestpicstable
 {
