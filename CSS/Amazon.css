@@ -367,21 +367,41 @@ a img
  border-radius: 3px;
  
 }
+.carousel-control-prev
+{
+    width: 80px;
+}
+.carousel-control-prev:hover
+{
+    border: 5px solid ;
+}
+.carousel-control-next
+{
+    width: 80px;
+}
+.carousel-control-next:hover
+{
+    border: 5px solid ;
+    
+}
 
 .carousel-outer
 {
-    border: 1px solid;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     gap: 25px;
-    background-color:antiquewhite;
+    height: 420px;
+    background-color:rgb(250, 241, 243);
+    justify-content: center;
+    border: inherit;
+    
 }
 
 .borderfirstboxtvs
 {
-    border: 1px solid;
-    width: 300px;
-    height: 360px;
+    
+    width: 310px;
+    height: 380px;
     padding : 15px;
     background-color: white;
     
@@ -390,21 +410,26 @@ a img
 {
     display: flex;
     gap: 15px;
+    
 }
 .firsttwotvs p
 {
     font-size: 11px;
     font: bolder;
+    
 }
 .imgtvs
 {
-    width: 100px;
-    height: 60px;
+    width: 120px;
+    height: 70px;
+    justify-items: center;
+    
 }
 .borderfirstboxtvs a
 {
     text-decoration: none;
     color: #000;
+    
 }
 .borderfirstboxtvs .bold
 {
@@ -439,9 +464,9 @@ a img
 }
 .Electronicsaccessories
 {
-    border: 1px solid;
-    width: 300px;
-    height: 360px;
+    
+    width: 310px;
+    height: 380px;
     padding : 15px;
     background-color: white;
 }
@@ -449,16 +474,16 @@ a img
 {
     font-size: 20px;
     font: bolder;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     
 }
 .Electronicsimg
 {
     gap: 20px;
-    padding-bottom: 11px;
+    padding-bottom: 17px;
 }
 .Electronicsimg img
-{
+{ 
     width: 260px;
     height: 240px;
        
@@ -480,9 +505,9 @@ a img
 
 .bordertharedboxtvs
 {
-    border: 1px solid;
-    width: 300px;
-    height: 360px;
+    
+    width: 310px;
+    height: 380px;
     padding : 15px;
     background-color: white;
 }
@@ -506,6 +531,12 @@ a img
     font-size: 12px;
     font: bolder;
 
+}
+.threboximgtvs
+{
+    width: 125px;
+    height: 70px;
+    justify-items: center;
 }
 .theredfirstbox img
 {
@@ -537,6 +568,275 @@ a img
     color: blue;
 }
 .thredboxAlldeals a:hover
+{
+    color: brown;
+    text-decoration: underline;
+}
+.borderfourthdboxtvs
+{
+    
+    width: 310px;
+    height: 380px;
+    padding : 15px;
+    background-color: white;
+}
+.borderfourthdboxtvs .bold
+{
+    padding-bottom: 10px;
+    font: bolder;
+}
+.fourthfirstbox 
+{
+    display: flex;
+    gap: 15px;
+}
+.fourthimg
+{
+    width: 125px;
+    height: 70px;
+    justify-items: center;
+}
+.fourthfirstbox a
+{
+    text-decoration: none;
+    color: #000;
+}
+.fourthfirstbox p
+{
+    font-size: 12px;
+    font: bolder;
+}
+.fourthfirstbox img
+{
+    padding-bottom: 5px;
+}
+.forthsecondbox img 
+{
+    padding-bottom: 5px;
+}
+.forthsecondbox
+{
+    
+    display: flex;
+    gap: 15px;
+}
+.forthsecondbox a
+{
+    text-decoration: none;
+    color: #000;
+}
+.forthsecondbox p
+{
+    font-size: 11px;
+    font: bolder;
+}
+/*second big box*/
+
+.seconditemsbox
+{
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    height: 450px;
+    background-color:rgb(250, 241, 243);
+    border: inherit;
+}
+.seconditemsboxinner
+{
+    width: 310px;
+    height: 425px;
+    padding : 15px;
+    background-color: white;
+    gap: 10px;
+}
+.seconditemsboxinner .bold
+{
+    padding-bottom: 10px;
+    font: bolder;
+}
+.secondinnerboxmobileair
+{
+    display: flex;
+    gap: 15px;
+    
+    padding-bottom: 20px;
+}
+.seconderypic a
+{
+    text-decoration: none;
+    color: white;
+}
+.seconderypic .secondboxfirestimg   
+{
+    width: 90px;
+    height: 135px;
+    padding-bottom: 5px;
+}
+.secondboxinerfirestboxair
+{
+    display: flex;    
+    gap: 10px;
+    
+}
+.secondboxfirestprice
+{
+    
+    font-size: 12px;
+    padding-top: 4px;
+    font: bolder;
+    justify-items: center;
+    background-color: brown;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+   
+}
+.secondboxfirestboxcontent
+{
+    
+    font-size: 12px;
+    font: bolder;
+    width: 60px;
+    height: 30px;
+    color: brown;
+    font-weight: 1000;
+}
+
+
+.secondseocondmobile
+{
+
+}
+.secondboxsecondimgmobile a
+{
+    text-decoration: none;
+
+}
+.secondboxsecondimg
+{
+    width: 100px;
+    padding-bottom: 5px;
+}
+.innerboxmobile
+{
+    display: flex;
+    gap: 10px;
+    border: 1px solid;
+    color: white;
+}
+.innermobileprice
+{
+    font-size: 12px;
+    padding-top: 4px;
+    font: bolder;
+    justify-items: center;
+    background-color: brown;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+}
+.innerboxmobilecontent
+{
+    font-size: 12px;
+    font: bolder;
+    width: 60px;
+    height: 30px;
+    color: brown;
+    font-weight: 1000;
+}
+.innersecondsecondbox
+{
+    display: flex;
+    gap: 15px;
+    
+    gap: 10px;
+    padding-bottom: 15px;
+}
+.innerboxchargerimg img
+{
+    width: 130px;
+    height: 110px;
+    padding-bottom: 10px;
+}
+.innerboxchargerimg a
+{
+    text-decoration: none;
+    color: white;
+}
+.innerboxchargerdetails
+{
+    display: flex;
+    gap: 10px;
+}
+.innerboxchargerprice
+{
+    font-size: 12px;
+    padding-top: 4px;
+    font: bolder;
+    justify-items: center;
+    background-color: brown;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+}
+.innerrboxchargercontent
+{
+    font-size: 12px;
+    font: bolder;
+    width: 60px;
+    height: 30px;
+    color: brown;
+    font-weight: 1000;
+}
+.innersecondairpodbox
+{
+
+}
+.innersecondboxairpadimg img
+{
+    width: 100px;
+    height: 110px;
+    padding-bottom: 10px;
+}
+.innersecondboxairpadimg a
+{
+    text-decoration: none;
+    color: white;
+}
+.innerrboxchargerdetails 
+{
+    display: flex;
+    gap: 10px;
+}
+
+.innerboxchageerimgprice
+{
+    font-size: 12px;
+    padding-top: 4px;
+    font: bolder;
+    justify-items: center;
+    background-color: brown;
+    width: 60px;
+    height: 28px;
+    text-align: center;
+}
+.innerimgchangercontent
+{
+    font-size: 12px;
+    font: bolder;
+    width: 60px;
+    height: 30px;
+    color: brown;
+    font-weight: 1000;
+}
+.innerallitems a
+{
+    padding-top: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+}
+.innerallitems a:hover
 {
     color: brown;
     text-decoration: underline;
