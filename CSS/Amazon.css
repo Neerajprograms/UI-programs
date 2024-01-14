@@ -917,7 +917,7 @@ a img
 
 #inneritemsall
 {
-    border: 1px solid;
+    
     gap: 10px;
     padding: 10px;
     display: flex;
@@ -1002,6 +1002,20 @@ a img
     font-weight: 1000;
     padding-left: 10px;
 }
+
+#firestsize:hover
+{
+    border: 1px solid black;
+    height: 100px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: white;
+}
+
+
 /*-------------------------sign box--------------------------------*/
 
 .signninbigbox
