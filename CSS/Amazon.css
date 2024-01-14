@@ -115,7 +115,7 @@
 {
     
     width: 40px;
-    height: 40px;
+    height: 38px;
     text-align: center;
     background-color: antiquewhite;
     border-radius: 7px 0px 0px 7px;
@@ -282,7 +282,7 @@ a img
     
     gap: 0px;
     margin: 0px;
-    height: 48px;
+    height: 33px;
     padding-top: 1px;
 }
 .navigationbarouter
@@ -630,7 +630,7 @@ a img
     font-size: 11px;
     font: bolder;
 }
-/*second big box*/
+/*-------------------------------------second big box ----------------------------------------------------*/
 
 .seconditemsbox
 {
@@ -747,9 +747,7 @@ a img
 .innersecondsecondbox
 {
     display: flex;
-    gap: 15px;
-    
-    gap: 10px;
+    gap: 25px;
     padding-bottom: 15px;
 }
 .innerboxchargerimg img
@@ -787,10 +785,6 @@ a img
     height: 30px;
     color: brown;
     font-weight: 1000;
-}
-.innersecondairpodbox
-{
-
 }
 .innersecondboxairpadimg img
 {
@@ -837,6 +831,76 @@ a img
     color: blue;
 }
 .innerallitems a:hover
+{
+    color: brown;
+    text-decoration: underline;
+}
+
+/*----------------------------------------secondbig box second small box-------------------------------------*/
+
+.secondbigboxsecond
+{
+    width: 310px;
+    height: 425px;
+    padding : 15px;
+    background-color: white;
+    gap: 10px;
+}
+
+.secondbigboxstarting .bold
+{
+    padding-bottom: 10px;
+    font: bolder;
+}
+.secondboxfirestpicstable
+{
+    display: flex;
+    gap: 15px;
+}
+.secondboxfirstpic
+{
+    width: 125px;
+    height: 70px;
+    justify-items: center;
+}
+.secondbigboxsecond a
+{
+    text-decoration: none;
+    color: #000;
+}
+.secondbigboxsecond p
+{
+    font-size: 12px;
+    font: bolder;
+    
+}
+
+.secondboxsecondpicstable
+{
+    display: flex;
+    gap: 15px;
+}
+.secondboxthiredpic
+{
+    width: 125px;
+    height: 70px;
+    justify-items: center;
+}
+.secondbigboxstarting img
+{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.secondbivboxAlldeals a
+{
+    padding-top: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+}
+.secondbivboxAlldeals a:hover
 {
     color: brown;
     text-decoration: underline;
