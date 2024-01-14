@@ -115,9 +115,9 @@
 {
     
     width: 40px;
-    height: 38px;
+    height: 39.5px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(235, 194, 141);
     border-radius: 7px 0px 0px 7px;
 }
 .inputbox input
@@ -391,7 +391,7 @@ a img
     display: flex;
     gap: 25px;
     height: 420px;
-    background-color:rgb(250, 241, 243);
+    background-color:rgb(247, 222, 227);
     justify-content: center;
     border: inherit;
     
@@ -648,8 +648,9 @@ a img
     display: flex;
     gap: 25px;
     height: 450px;
-    background-color:rgb(250, 241, 243);
+    background-color:rgb(247, 222, 227);
     border: inherit;
+    justify-content: center;
 }
 /*-------------------------------------second big box firest---------------------------------------------------------*/
 .seconditemsboxinner
@@ -879,7 +880,6 @@ a img
 {
     font-size: 12px;
     font: bolder;
-    
 }
 
 .secondboxsecondpicstable
@@ -911,4 +911,186 @@ a img
 {
     color: brown;
     text-decoration: underline;
+}
+/*---------------------------item courserl--------------------------------------------*/
+
+
+#inneritemsall
+{
+    border: 1px solid;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+}
+.innerimgtemcontent
+{
+    
+    width: 230px;
+    border: 1px solid;
+}
+.innerimgtemcontent img
+{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    
+}
+.statingdetails
+{
+    padding-bottom: 10px;
+}
+.plaincontent
+{
+    font-size: 20px;
+    font: bolder;
+    font-weight: 1000;
+    color: #000;
+    
+    
+}
+.allthedtials a
+{
+    padding-top: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: blue;
+    padding-left: 10px;
+}
+.allthedtials a:hover
+{
+    color: brown;
+    text-decoration: underline;
+}
+
+#carouselExample a
+{
+    text-decoration: none;
+}
+.itemdetials
+{
+    
+    
+    width: 230px;
+}
+.itemdetials p
+{
+    font-size: 12px;
+    font: bolder;
+    color: #000;
+    padding-top: 5px;
+}
+.itemaprice
+{
+    font-size: 12px;
+    padding-top: 4px;
+    font: bolder;
+    justify-items: center;
+    background-color: brown;
+    width: 60px;
+    height: 100px;
+    text-align: center;
+    color: white;
+    
+
+}
+.itemabout
+{
+    font-size: 12px;
+    font: bolder;
+    width: 60px;
+    height: 30px;
+    color: brown;
+    font-weight: 1000;
+    padding-left: 10px;
+}
+/*-------------------------sign box--------------------------------*/
+
+.signninbigbox
+{
+    height: 220px;
+    justify-items: center;
+    padding-top: 50px;
+}
+
+.innerboxsign
+{
+    border: 1px solid;
+    border-radius: 10px;
+    height: 150px;
+    padding-top: 50px;
+    text-align: center;
+    font: bolder;
+    font-size: 13px;
+}
+.btn
+{
+    width: 250px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 1000;
+    
+}
+/*------------------------------------back to top-----------------------------------------*/
+.backtotop
+{
+    
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+    font-size: 13px;
+    font-weight: 1000;
+    color: white;
+    background-color: rgb(26, 86, 109);
+}
+.backtotop a
+{
+    text-decoration: none;
+    color: white;
+}
+.backtotop:hover
+{
+background-color: rgb(70, 143, 192);
+}
+
+/*------------------------------------about all information---------------------------------------*/
+
+.aboutallinforamtion
+{
+    height: 350px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    gap: 100px;
+    background-color:rgb(27, 97, 129);
+}
+
+.firstul h3
+{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: white;
+}
+.innerfirestul
+{
+    list-style: none;
+
+}
+
+.innerfirestul li
+{
+    padding-bottom: 10px;
+    
+}
+.innerfirestul li:hover
+{
+    text-decoration: underline white;
+}
+.innerfirestul li a
+{
+    text-decoration: none;
+    font: bolder;
+    font-weight: 1000;
+    font-size: 13px;
+    color: white; 
+    
 }
