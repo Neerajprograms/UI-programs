@@ -4,10 +4,9 @@
     padding: 0%;
         
 }
-
 .mainbody
 {
-    font-family: Tahoma, sans-serif;
+    font-family: Tahoma, sans-serif
 }
 
 .innerdiv
@@ -298,7 +297,7 @@ a img
 .alltheotionsbox
 {
     
-    width: 00px;
+    width: 1000px;
     height: 46px;
     display: flex;
     padding-top: 2px;
@@ -355,10 +354,15 @@ a img
     color: white;
     
 }
-
-.therdnavimg img
+.therdnavimg
 {
- width: 354px;
+    
+    width: 370px;
+     
+}
+.therdnavimg a img
+{
+ width: 353px;
  height: 43px;
  border-radius: 3px;
  
@@ -640,13 +644,14 @@ a img
 
 .seconditemsbox
 {
-    padding: 20px;
+    padding-bottom: 20px;
     display: flex;
     gap: 25px;
-    height: 470px;
+    height: 450px;
     background-color:rgb(247, 222, 227);
     border: inherit;
     justify-content: center;
+    
 }
 /*-------------------------------------second big box firest---------------------------------------------------------*/
 .seconditemsboxinner
@@ -910,7 +915,10 @@ a img
 }
 /*---------------------------item courserl--------------------------------------------*/
 
-
+#neeraj
+{
+padding: 10px 0px; 
+}
 #inneritemsall
 {
     
@@ -921,7 +929,7 @@ a img
 
 .insideallitems img
 {
-    padding-left: 20px;
+    padding-left: 35px;
     padding-bottom: 5px;
     
 }
@@ -931,16 +939,16 @@ a img
 }
 .plaincontent
 {
-    font-size: 20px;
+    font-size: 22px;
     font: bolder;
     font-weight: 1000;
     color: #000;
-    
+    padding-left: 30px;
 }
 .allthedtials a
 {
     padding-top: 5px;
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
     color: blue;
     padding-left: 10px;
@@ -992,8 +1000,8 @@ a img
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color:black;
-    border: 3px solid white;
+    background-color: black;
+    border: 3px;
 }
 
 
@@ -1020,8 +1028,8 @@ a img
 {
     height: 220px;
     justify-items: center;
-    padding-top: 40px;
-    background-color: beige;
+    padding-top: 50px;
+    background-color: blanchedalmond;
 }
 
 .innerboxsign
