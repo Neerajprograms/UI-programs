@@ -988,7 +988,7 @@ a img
     padding-left: 10px;
 }
 
-#firestsize:hover
+#firestsize
 {
     border: 5px solid black;
     height: 100px;
@@ -996,7 +996,7 @@ a img
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: black;
+    background-color:black;
     border: 3px solid white;
 }
 
@@ -1024,7 +1024,8 @@ a img
 {
     height: 220px;
     justify-items: center;
-    padding-top: 50px;
+    padding-top: 40px;
+    background-color: beige;
 }
 
 .innerboxsign
