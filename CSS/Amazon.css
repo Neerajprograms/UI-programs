@@ -4,9 +4,10 @@
     padding: 0%;
         
 }
+
 .mainbody
 {
-    font-family: Tahoma, sans-serif
+    font-family: Tahoma, sans-serif;
 }
 
 .innerdiv
@@ -297,7 +298,7 @@ a img
 .alltheotionsbox
 {
     
-    width: 1000px;
+    width: 00px;
     height: 46px;
     display: flex;
     padding-top: 2px;
@@ -354,16 +355,11 @@ a img
     color: white;
     
 }
-.therdnavimg
+
+.therdnavimg img
 {
-    
-    width: 370px;
-     
-}
-.therdnavimg a img
-{
- width: 370px;
- height: 45.5px;
+ width: 354px;
+ height: 43px;
  border-radius: 3px;
  
 }
@@ -647,7 +643,7 @@ a img
     padding: 20px;
     display: flex;
     gap: 25px;
-    height: 450px;
+    height: 470px;
     background-color:rgb(247, 222, 227);
     border: inherit;
     justify-content: center;
