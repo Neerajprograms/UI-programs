@@ -920,18 +920,13 @@ a img
     
     gap: 10px;
     padding: 10px;
-    display: flex;
+     
 }
-.innerimgtemcontent
+
+.insideallitems img
 {
-    
-    width: 230px;
-    border: 1px solid;
-}
-.innerimgtemcontent img
-{
-    padding-left: 30px;
-    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-bottom: 5px;
     
 }
 .statingdetails
@@ -944,7 +939,6 @@ a img
     font: bolder;
     font-weight: 1000;
     color: #000;
-    
     
 }
 .allthedtials a
@@ -961,16 +955,7 @@ a img
     text-decoration: underline;
 }
 
-#carouselExample a
-{
-    text-decoration: none;
-}
-.itemdetials
-{
-    
-    
-    width: 230px;
-}
+
 .itemdetials p
 {
     font-size: 12px;
@@ -1005,14 +990,31 @@ a img
 
 #firestsize:hover
 {
-    border: 1px solid black;
+    border: 5px solid black;
     height: 100px;
     width: 50px;
-    position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    background-color: white;
+    background-color: black;
+    border: 3px solid white;
+}
+
+
+
+.insideallitems 
+{
+    
+    height: 270px;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    
+    
+}
+.insideallitems a
+{
+    text-decoration: none;
 }
 
 
