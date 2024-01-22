@@ -4,6 +4,10 @@ console.log(click.textContent)
 
 a = 0;
 
+const type = document.getElementById("numbertexttype")
+
+console.log(type.textContent);
+
 const number = document.getElementById('number')
 
 let c = 0;
@@ -19,6 +23,17 @@ function incr1()
     a ++
 
     click.textContent = a;
+
+    if ( c % 2 == 0 )
+{
+    type.textContent = "EVEN";
+}
+
+else 
+{
+    
+    type.textContent = "ODD";
+}
 }
 function incr2()
 {
@@ -27,6 +42,17 @@ function incr2()
     a ++
 
     click.textContent = a;
+
+    if ( c % 2 == 0 )
+{
+    type.textContent = "EVEN";
+}
+
+else 
+{
+    
+    type.textContent = "ODD";
+}
 }
 
 function incr3()
@@ -36,6 +62,17 @@ function incr3()
     a ++
 
     click.textContent = a;
+
+    if ( c % 2 == 0 )
+{
+    type.textContent = "EVEN";
+}
+
+else 
+{
+    
+    type.textContent = "ODD";
+}
 }
 
 function incr4()
@@ -45,6 +82,17 @@ function incr4()
     a ++
 
     click.textContent = a;
+
+    if ( c % 2 == 0 )
+{
+    type.textContent = "EVEN";
+}
+
+else 
+{
+    
+    type.textContent = "ODD";
+}
 }
 
 function dicr1()
@@ -61,6 +109,17 @@ function dicr1()
     a ++
 
     click.textContent = a;
+
+    if ( c % 2 == 0 )
+{
+    type.textContent = "EVEN";
+}
+
+else 
+{
+    
+    type.textContent = "ODD";
+}
     
 }
 function dicr2()
@@ -77,6 +136,17 @@ function dicr2()
     a ++
 
     click.textContent = a;
+
+    if ( c % 2 == 0 )
+{
+    type.textContent = "EVEN";
+}
+
+else 
+{
+    
+    type.textContent = "ODD";
+}
 }
 
 function dicr3()
@@ -93,6 +163,17 @@ function dicr3()
     a ++
 
     click.textContent = a;
+
+    if ( c % 2 == 0 )
+{
+    type.textContent = "EVEN";
+}
+
+else 
+{
+    
+    type.textContent = "ODD";
+}
 }
 
 function dicr4()
@@ -109,6 +190,17 @@ function dicr4()
     a ++
 
     click.textContent = a;
+
+    if ( c % 2 == 0 )
+{
+    type.textContent = "EVEN";
+}
+
+else 
+{
+    
+    type.textContent = "ODD";
+}
 }
 
 function rest()
@@ -119,14 +211,7 @@ function rest()
     a = 0;    
     click.textContent = a;
 
-}
-
-
-const type = document.getElementById("numbertexttype")
-
-console.log(type.textContent);
-
-if ( c * 2 == 0 )
+    if ( c % 2 == 0 )
 {
     type.textContent = "EVEN";
 }
@@ -136,6 +221,10 @@ else
     
     type.textContent = "ODD";
 }
+}
+
+
+
 
 
 
