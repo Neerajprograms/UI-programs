@@ -126,11 +126,11 @@ const type = document.getElementById("numbertexttype")
 
 console.log(type.textContent);
 
-
-if ( c % 2 == 0 )
+if ( c * 2 == 0 )
 {
     type.textContent = "EVEN";
 }
+
 else 
 {
     
