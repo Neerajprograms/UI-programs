@@ -39,7 +39,7 @@ body
     background: url(images/images1.jpeg);
     background-size: 200px 610px;
     opacity: 0.9;
-    height: 800px;
+    height: auto;
     width: 300px;
     text-align: center;
     border-radius: 30px;
@@ -70,16 +70,14 @@ body
     text-decoration: none;
     text-shadow: 5px 2px 5px;
 }
-.starting li a
-{
 
-}
 .myinfo
 {
    
     background: url(images/photo-1555066931-4365d14bab8c.avif);
     width: 1080px;
-    height: 800px;
+    height: auto;
     border-radius: 20px;
+    
 }
 

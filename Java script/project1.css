@@ -1,0 +1,109 @@
+body
+{
+
+    
+    height: 90vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+}
+#mainbody
+{
+   
+box-shadow: 5px 5px 5px ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 100px;
+align-items: center;
+background-color: rgb(103, 179, 179);
+
+}
+.innerbody
+{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.numbertype
+{
+    
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: px;
+    align-items: center;
+    width: 250px;
+    padding-left: 20px;
+    
+}
+.numberrelated
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#number
+{
+    text-align: center;
+    font-size: 25px;
+    font: bolder;
+    border: 3px solid;
+    box-shadow: 2px 3px 5px;
+    height: 30px;
+    width: 30px;
+    background-color: aliceblue;
+    
+}
+#clicks
+{
+    text-align: center;
+    font-size: 25px;
+    font: bolder;
+    border: 3px solid;
+    box-shadow: 2px 3px 5px;
+    height: 30px;
+    width: 70px;
+    background-color: aliceblue;
+}
+#numbertexttype
+{
+    text-align: center;
+    font-size: 25px;
+    font: bolder;
+    border: 3px solid;
+    box-shadow: 2px 3px 5px;
+    height: 30px;
+    width: 70px;
+    background-color: aliceblue;
+}
+.buttun
+{
+
+    width: 70px;
+    height: 40px;
+    font-size: 25px;
+    font: bolder;
+    border-radius: 30px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+}
+.outerrest
+
+{
+    padding-top: 70px;
+    padding-left: 95px;
+    
+   
+}
+.reset
+{
+    font-size: 25px;
+    font: bolder;
+    border-radius: 60px;
+    
+
+}
