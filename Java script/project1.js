@@ -17,14 +17,14 @@ console.log(number.textContent)
 
 function incr1()
 {
-    c++;
+    c ++;
     number.textContent = c;
 
     a ++
 
     click.textContent = a;
 
-    if ( c % 2 == 0 )
+if ( c % 2 == 0 )
 {
     type.textContent = "EVEN";
 }
@@ -34,16 +34,19 @@ else
     
     type.textContent = "ODD";
 }
+
 }
 function incr2()
 {
-    c = c + 2;
+    
+    c = 2 + c;
     number.textContent = c;
+    
     a ++
 
     click.textContent = a;
 
-    if ( c % 2 == 0 )
+if ( c % 2 == 0 )
 {
     type.textContent = "EVEN";
 }
@@ -57,13 +60,15 @@ else
 
 function incr3()
 {
-    c = c + 3;
+    
+    c = 3 + c;
     number.textContent = c;
+    
     a ++
 
     click.textContent = a;
 
-    if ( c % 2 == 0 )
+if ( c % 2 == 0 )
 {
     type.textContent = "EVEN";
 }
@@ -77,13 +82,15 @@ else
 
 function incr4()
 {
-    c = c + 4;
+    
+    c = 4 + c;
     number.textContent = c;
+    
     a ++
 
     click.textContent = a;
 
-    if ( c % 2 == 0 )
+if ( c % 2 == 0 )
 {
     type.textContent = "EVEN";
 }
@@ -211,16 +218,7 @@ function rest()
     a = 0;    
     click.textContent = a;
 
-    if ( c % 2 == 0 )
-{
-    type.textContent = "EVEN";
-}
-
-else 
-{
-    
-    type.textContent = "ODD";
-}
+    type.textContent = 0;
 }
 
 

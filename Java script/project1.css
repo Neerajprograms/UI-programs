@@ -7,6 +7,7 @@ body
     display: flex;
     justify-content: center;
     background-color: bisque;
+    
 }
 #mainbody
 {
@@ -15,9 +16,10 @@ box-shadow: 5px 5px 5px ;
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding: 100px;
+padding: 60px;
 align-items: center;
-background-color: rgb(103, 179, 179);
+background: url(./img/WhatsApp\ Image\ 2024-01-23\ at\ 09.21.28_49e7f1d0.jpg);
+background-size: 415px;
 
 }
 .innerbody
@@ -28,12 +30,22 @@ background-color: rgb(103, 179, 179);
     align-items: center;
 
 }
+.boxtitle
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    align-items: center;
+    width: 250px;
+    padding-left: 20px;
+    font-weight: 1000;
+    
+}
 .numbertype
 {
     
     display: flex;
     justify-content: space-between;
-    padding-bottom: px;
     align-items: center;
     width: 250px;
     padding-left: 20px;
@@ -54,7 +66,7 @@ background-color: rgb(103, 179, 179);
     border: 3px solid;
     box-shadow: 2px 3px 5px;
     height: 30px;
-    width: 30px;
+    width: 40px;
     background-color: aliceblue;
     
 }
@@ -104,6 +116,6 @@ background-color: rgb(103, 179, 179);
     font-size: 25px;
     font: bolder;
     border-radius: 60px;
-    
+    box-shadow: 2px 3px 5px;
 
 }
