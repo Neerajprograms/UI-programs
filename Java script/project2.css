@@ -1,0 +1,69 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: rgb(247, 223, 192);
+}
+
+
+.form-check
+{
+    padding-bottom: 100px;
+    justify-content: end;
+    display: flex;
+    
+    
+}
+.litemode
+{
+    padding-right: 35px;
+    font-size: larger;
+    font-weight:bolder;
+}
+
+.checkboxouter
+{
+    padding-right: 10px;
+    
+}
+.darkmode
+{
+    font-size: larger;
+    font-weight:bolder;
+}
+#paragraf
+
+{
+
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.backgrounrimg
+{
+
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+button
+{
+    height: 50px;
+    box-shadow: 3px 4px 5px;
+    font-size: larger;
+    font-weight:bolder;
+}
+
+.dark
+{
+    background-color: black;
+    color: white;    
+
+}
