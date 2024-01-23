@@ -34,11 +34,11 @@ background-size: 415px;
 {
     display: flex;
     justify-content: space-between;
-    gap: 0px;
     align-items: center;
     width: 250px;
     padding-left: 20px;
     font-weight: 1000;
+    
     
 }
 .numbertype
@@ -48,7 +48,10 @@ background-size: 415px;
     justify-content: space-between;
     align-items: center;
     width: 250px;
-    padding-left: 20px;
+    height: 50px;
+    padding-left: 25px;
+    
+    
     
 }
 .numberrelated
@@ -57,6 +60,7 @@ background-size: 415px;
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 #number
 {
