@@ -17,7 +17,7 @@ let arr = ['https://img.freepik.com/free-photo/hand-painted-watercolor-backgroun
 function img()
 {
     // Get a random index within the range of the array length
-    let randomIndex = (Math.floor(Math.random() *5));
+    let randomIndex = (Math.floor(Math.random() *4));
 
     // Change the background image of the element with ID "mainbody"
     document.getElementById('mainbody').style.backgroundImage = `url(${arr[randomIndex]})`;

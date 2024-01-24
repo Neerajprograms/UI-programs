@@ -10,7 +10,7 @@ body
 
 .form-check
 {
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     justify-content: end;
     display: flex;
     
@@ -37,12 +37,17 @@ body
 
 {
 
-    
+    justify-content: center;
+    text-align: center;    
     font-size: 16px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
+#paragraf p
+{
+    padding: 30px;
+}
 .backgrounrimg
 {
 
