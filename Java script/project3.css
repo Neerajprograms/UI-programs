@@ -43,19 +43,21 @@ body{
     grid-template-columns: repeat(4,auto);
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 .books
 {
     
     height: 400px;
-    width: 300px;
+    width: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    text-align: center;
     padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 4px 10px;
 }
 
 .books h1
@@ -81,4 +83,5 @@ body{
 
     box-shadow: 7px 9px 10px;
     border-radius: 30px;
+   
 }

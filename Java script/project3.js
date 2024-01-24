@@ -4486,19 +4486,21 @@ books.forEach (function (book)
     
     const bookDiv = document.createElement('div')
     const imgDiv = document.createElement('div')
+    const image = document.createElement('img')
     const title = document.createElement('h3')
     const author = document.createElement('p')
     const status = document.createElement('p')
-    const image = document.createElement('img')
+    
 
     
     image.src = book.thumbnailUrl;
-
-    imgDiv.style.backgroundSize = 'cover';
-    title.textContent = book.title;
-    author.textContent = book.authors;
-    status.textContent = book.status;
+    image.alt = book.title;
+    title.textContent = book. title;
+    author.textContent = "Author :: "+book.authors;
+    status.textContent = "Status :: "+book.status;
     
+
+
 
     bookDiv.classList.add('books')
     mainbooks.appendChild(bookDiv)
