@@ -1,0 +1,84 @@
+body{
+
+    background-color: antiquewhite;
+    gap: 0px;
+    margin: 0%;
+}
+
+.title
+{
+    height: 60px;
+    display: flex;
+
+    padding-bottom: 20px;
+}
+
+.titleimg
+{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.titleinner
+{
+    
+    width: 1400px;
+    text-align: center;
+    
+}
+.titleinner h1
+{
+    color: black;
+
+}
+.titleinner h1:hover
+
+{
+    color: blue;
+}
+
+#booksbody
+{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.books
+{
+    
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 10px;
+}
+
+.books h1
+{
+    padding: 50px;
+}
+.books p
+{
+
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.books img
+{
+    height: 160;
+    
+}
+
+.books:hover
+{
+
+    box-shadow: 7px 9px 10px;
+    border-radius: 30px;
+}
