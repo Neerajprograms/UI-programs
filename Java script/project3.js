@@ -4500,8 +4500,6 @@ books.forEach (function (book)
     status.textContent = "Status :: "+book.status;
     
 
-
-
     bookDiv.classList.add('books')
     mainbooks.appendChild(bookDiv)
     bookDiv.append(imgDiv,title,author,status)
