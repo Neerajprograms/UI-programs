@@ -1,0 +1,63 @@
+*
+{
+
+    margin: 0px;
+    gap: 0px;
+}
+
+
+
+.mainheaddiv
+{
+display: flex;
+text-align: center;
+align-items: center;
+
+
+}
+.titileinner
+{
+    
+    width: 1000px;
+    
+    text-align: center;
+}
+
+.historyimg img
+{
+    height: 130px;
+    padding-left: 20px;
+}
+
+#maindivbody
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+hr{
+    padding-top: 30px;
+}
+.places
+{
+
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 4px 10px;
+    background-color: white;
+}
+.places p
+{
+
+    padding: 10px;
+
+}
