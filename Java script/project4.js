@@ -115,7 +115,9 @@ placeslist.forEach(function (place)
     mainvideo.src = place.video
     mainvideo.width = 200;
     mainvideo.play();
+   // mainvideo.controls = "true"
     mainvideo.loop = "true"
+    mainvideo.autoplay = "true"
     title.textContent = place.title;
     describe.textContent = place.description
     latitude.textContent = "Latitude ::"+place.latitude
