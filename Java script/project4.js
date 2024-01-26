@@ -11,20 +11,20 @@ const placeslist = [
         "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/taj-mahal-6113726-5001424.mp4"
     },
     {
-        "latitude": 18.9220,
-        "longitude": 72.8347,
-        "title": "Gateway of India",
-        "description": "Gateway of India has stayed an inseparable historic symbol for the city of Mumbai and the country. This bold basalt arch that symbolizes colonial triumph is now amongst the popular tourist places to visit in Mumbai.",
+        "latitude": 48.8584,
+        "longitude": 2.2945,
+        "title": "Eiffel Tower",
+        "description": "The tower is 330 metres (1,083 ft) tall, about the same height as an 81-storey building, and the tallest structure in Paris. Its base is square, measuring 125 .",
         "zoomLevel": 19,
-        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/taj-mahal-6113726-5001424.mp4"
+        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/paris-city-3916273-3263004.mp4"
     },
     {
-        "latitude": 20.0258,
-        "longitude": 75.1780,
-        "title": "Ajanta & Ellora Caves",
-        "description": "One of the most attention-grabbing places in India would be Ajanta and Ellora Caves. Ajanta Caves can mostly be referred as the Buddhist caves whereas Ellora Caves can be called Hindu, Jain and Buddhist caves. Ajanta & Ellora Caves are amongst one of the most well-preserved monuments in India.",
+        "latitude": 28.5535,
+        "longitude": 77.2588,
+        "title": "Lotus Temple",
+        "description": "The Lotus Temple, located in New Delhi, India, is a Baháʼí House of Worship that was dedicated in December 1986. Notable for its lotus-like shape.",
         "zoomLevel": 16,
-        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/taj-mahal-6113726-5001424.mp4"
+        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/lotus-temple-8928569-8356159.mp4"
     },
     {
         "latitude": 28.6129,
@@ -35,12 +35,12 @@ const placeslist = [
         "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/india-gate-8928568-8356158.mp4"
     },
     {
-        "latitude": 17.3616,
-        "longitude": 78.4747,
-        "title": "Charminar",
-        "description": "This 16th century monument in Hyderabad has been the clear winner of being one of the most famous landmarks in India. Standing tall in the Old Hyderabad, Charminar looks absolutely stunning when lit in the evening.",
-        "zoomLevel": 20,
-        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/taj-mahal-6113726-5001424.mp4"
+        "latitude": 9.9195,
+        "longitude": 78.1193,
+        "title": "Meenakshi Temple",
+        "description": "Said to have the finest Indian architecture, Meenakshi Temple is situated on the bank of Vaigai River in the temple city Madurai. The temple is probably the most famous edifice in South India and is visited by both devotees and architecture lovers throughout the year.",
+        "zoomLevel": 18,
+        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/angkor-wat-6113699-5001398.mp4"
     },
     {
         "latitude": 23.4810,
@@ -48,41 +48,34 @@ const placeslist = [
         "title": "Sanchi Stupa",
         "description": "Sanchi has a distinction of having an incredible specimen of Buddhist art and architecture. Dating back to the early Mauryan period (third century BC to twelfth century AD), Sanchi is famous in the world for stupas, monolithic Ashokan pillar, temples, monasteries and sculptures.",
         "zoomLevel": 17,
-        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/taj-mahal-6113726-5001424.mp4"
+        "video": "https://cdnl.iconscout.com/lottie/premium/thumb/itsukushima-shrine-6113711-5001409.mp4"
     },
     {
-        "latitude": 26.9239,
-        "longitude": 75.8267,
-        "title": "Hawa Mahal",
-        "description": "This Palace of Winds is a prominent landmark of Pink City, Jaipur. A five-storey pyramidal building, Hawa Mahal stands 15m tall and overlooks the busy streets of the city. The monument was built Maharaja Sawai Pratap Singh to offer convenience to women to see the outside world without having to be seen by the other.",
+        "latitude": 40.6892,
+        "longitude": 74.0445,
+        "title": "Statue of Liberty",
+        "description": "The copper statue, a gift from the people of France, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave.",
         "zoomLevel": 19,
-        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/taj-mahal-6113726-5001424.mp4"
+        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/new-york-city-3915605-3263010.mp4"
         
     },
     {
-        "latitude": 24.6094,
-        "longitude": 72.7230,
-        "title": "Dilwara Temples",
-        "description": "Dilwara Jain Temples is undoubtedly one of the finest Jain temples in India. It is known world over for its excellent architecture and marvelous marble stone carvings, some experts also consider it architecturally superior to the Taj Mahal.",
+        "latitude": 43.7230,
+        "longitude": 10.3966,
+        "title": "Leaning Tower of Pisa",
+        "description": "It is known for its nearly four-degree lean, the result of an unstable foundation. The height of the tower is about 56 metres from the ground. Its weight is about 14,500 tonnes. It now leans at about 3.99 degrees. The tower has 294 steps..",
         "zoomLevel": 18,
-        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/taj-mahal-6113726-5001424.mp4"
+        "video": "https://cdnl.iconscout.com/lottie/premium/thumb/pisa-6113719-5001417.mp4"
     },
     {
-        "latitude": 12.6165,
-        "longitude": 80.1988,
-        "title": "Group of Monuments at Mahabalipuram",
-        "description": "Mahabalipuram is known especially for its rathas (temples in the form of chariots), mandapas (cave sanctuaries), giant open-air structures such as the famous ‘Descent of the Ganges’, and the temple of Rivage along with thousands of sculptures made to the glorify Shiva.",
+        "latitude": 40.4319,
+        "longitude": 116.5704,
+        "title": "Great Wall of China",
+        "description": "The Great Wall of China is a series of fortifications that were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe.",
         "zoomLevel": 19,
-        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/taj-mahal-6113726-5001424.mp4"
-    },
-    {
-        "latitude": 9.9195,
-        "longitude": 78.1193,
-        "title": "Meenakshi Temple",
-        "description": "Said to have the finest Indian architecture, Meenakshi Temple is situated on the bank of Vaigai River in the temple city Madurai. The temple is probably the most famous edifice in South India and is visited by both devotees and architecture lovers throughout the year.",
-        "zoomLevel": 18,
-        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/taj-mahal-6113726-5001424.mp4"
+        "video": "https://cdnl.iconscout.com/lottie/premium/preview-watermark/wall-of-china-6274328-5187076.mp4"
     }
+
 ]
 
 // "latitude": 27.1751,
@@ -115,7 +108,7 @@ placeslist.forEach(function (place)
     mainvideo.src = place.video
     mainvideo.width = 200;
     mainvideo.play();
-   // mainvideo.controls = "true"
+    mainvideo.controls = "true"
     mainvideo.loop = "true"
     mainvideo.autoplay = "true"
     title.textContent = place.title;
