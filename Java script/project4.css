@@ -35,7 +35,7 @@ align-items: center;
     grid-template-columns: repeat(3,auto);
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 45px;
 }
 hr{
     padding-top: 30px;
@@ -43,8 +43,8 @@ hr{
 .places
 {
 
-    height: 500px;
-    width: 400px;
+    height: 450px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
