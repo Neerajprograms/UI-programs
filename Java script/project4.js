@@ -118,10 +118,8 @@ placeslist.forEach(function (place)
     
 
 
-
-
-
     placeDiv.classList.add('places')
+    mainvideo.classList.add('videos')
     mainDiv.appendChild(placeDiv)
     placeDiv.appendChild(placevideoDiv)
     placevideoDiv.appendChild(mainvideo)
