@@ -1,51 +1,104 @@
-.firefox
+*
 {
-   
+    margin: 0px;
+    gap: 0px;
+}
+body
+{
     
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/aksldjlksdjgs.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1380px;
+}
 
-}
-.main-body
+h1
 {
-   height: 100%;
-    background-color: rgb(235, 243, 240);
-    align-content: center;
+    padding-bottom: 20px;
+}
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+ 
+#maindiv
+{
 
-}
-
-.form
-{
-    align:center;
-    background-color: rgb(237, 240, 239);
-}
-.rigistration
-{
-    border: none;
-}
-.options
-{
-    border: 2px solid ;
-    padding: 50px;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 400px;
-    
+    height: 550px;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    position: relative;
 }
-#borth
+
+#maindiv::before,
+#maindiv::after
+{
+    content: "";
+    position: absolute;
+    inset: -0.2rem;
+    z-index: -1;
+    background: linear-gradient(var(--angle), 
+      #C3F2FF,#cdcdcd);
+    animation: rotate 5s linear infinite;
+    border-radius: 30px;
+}
+
+#maindiv::after
+{
+    filter: blur(10px);
+}
+@keyframes rotate {
+    0%     { --angle: 0deg; }
+    100%   { --angle: 360deg;
+    }
+  }
+.mainform
 {
     
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.submit
+#genderer
 {
    
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
     
 }
 
-.body
+
+.datetype
 {
-    align:center
+
+    width: 260px;
+    height: 30px;
 }
 
-.starting
+.inputlable
 {
-    border: 2px solid;
-    
+    padding:20px;
+}
+
+.button
+{
+    padding-top: 20px;
+}
+.innerrbutton
+{
+    width: 100px;
+    height: 30px;
 }
