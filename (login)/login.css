@@ -12,7 +12,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f1f1f1;
+  /* background-color: #ebc1c1; */
+
+  background-image: url(./img/wp8189749-avengers-film-characters-wallpapers.jpg);
+  background-size: 1800px;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -22,7 +26,7 @@ body {
 }
 
 .login-box {
-  background-color: #fff;
+  background-color: #ceeaf5;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
