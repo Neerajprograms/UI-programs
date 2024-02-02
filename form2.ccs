@@ -6,7 +6,7 @@
 body
 {
     
-    height: 700px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,16 +15,6 @@ body
     background-size: 1380px;
 }
 
-h1
-{
-    padding-bottom: 20px;
-}
-/* @property --angle {
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false;
-  } */
- 
 #maindiv
 {
 
@@ -40,31 +30,6 @@ h1
     
 }
 
-/*#maindiv::before,
-#maindiv::after
-{
-    content: "";
-    position: absolute;
-    inset: -0.2rem;
-    z-index: -1;
-    background: linear-gradient(var(--angle), 
-      #C3F2FF,#cdcdcd);
-    animation: rotate 5s linear infinite;
-    border-radius: 30px;
-}
-
-#maindiv::after
-{
-    filter: blur(10px);
-}
-@keyframes rotate {
-    0%     { --angle: 0deg; }
-    100%   { --angle: 360deg;
-    }
-  }
-
-
-  */
 .mainform
 {
     
@@ -75,42 +40,215 @@ h1
     align-items: center;
     
 }
-#genderer
+h1
 {
-   
+  padding-bottom: 20px;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .password-toggle-icon i {
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .password-toggle-icon i:hover {
+    color: #000;
+  }
+
+ .confirm-password-toggle-icon
+  {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+
+  .confirm-password-toggle-icon i
+  {
+    font-size: 18px;
+    line-height: 1;
+    color: #333;
+    transition: color 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+
+  .confirm-password-toggle-icon i:hover
+  {
+    color: #000;
+  }
+  .user-box {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .user-box input {
+    width: 300px;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    background: transparent;
+  }
+  
+  .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #333;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .user-box input:focus ~ label,
+  .user-box input:valid ~ label {
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #fcefef;
+  }
+
+
+.button a
+{
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    height: 40px;
     display: flex;
-    justify-content: space-between;
-    width: 230px;
-    height: 10px;
-    
-    
+    justify-content: center;
+    text-align: center;
 }
-
-
-.datetype
+  
+.button a 
 {
-
-    width: 260px;
-    height: 25px;
-}
-
-.inputlable
-{
-    padding:20px;
-}
-
-.innerrbutton
-{
-    width: 150px;
-    height: 25px;
-    border-radius: 50px;
+  display: inline-block;
+  background-color: #333;
+  
+  padding: 10px 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  
+  transition: 0.5s;
+  letter-spacing: 2px;
+  border-radius: 5px;
   
 }
 
-.innerrbutton:hover
+.button a:hover {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  border: 1px solid #fcf8f8;
+  
+  
+}
+
+.button a span {
+  position: absolute;
+  display: block;
+}
+
+.button a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+.button a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #333;
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+.button a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+.button a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background-color: #333;
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}
+
+
+.singup
 {
 
-    background-color: black;
-    color: white;
+  padding-top: 10px;
+}
 
+.singup a
+{
+  color: white;
+  text-decoration: none;
 }
