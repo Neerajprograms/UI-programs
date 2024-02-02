@@ -15,7 +15,7 @@ body {
   /* background-color: #ebc1c1; */
 
   background-image: url(./img/wp8189749-avengers-film-characters-wallpapers.jpg);
-  background-size: 1800px;
+  background-size: 1800px 1200px;
   background-repeat: no-repeat;
 }
 
@@ -26,11 +26,14 @@ body {
 }
 
 .login-box {
-  background-color: #ceeaf5;
+  /* background-color: #ceeaf5; */
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(30px) ;
 }
+
+
 
 .login-box h2 {
   margin: 0 0 15px;
@@ -49,7 +52,7 @@ body {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
-  color: #333;
+  color: #aaa4a4;
   margin-bottom: 30px;
   border: none;
   border-bottom: 2px solid #333;
@@ -63,7 +66,7 @@ body {
   left: 0;
   padding: 10px 0;
   font-size: 16px;
-  color: #333;
+  color: #fffefe;
   pointer-events: none;
   transition: 0.5s;
 }
@@ -72,7 +75,7 @@ body {
 .user-box input:valid ~ label {
   transform: translateY(-20px);
   font-size: 14px;
-  color: #333;
+  color: #d4d0d0;
 }
 
 a {
