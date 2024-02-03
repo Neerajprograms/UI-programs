@@ -31,44 +31,48 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
+
+
+
   const name = document.getElementById('username');
-  const Email = document.getElementById('Email')
-  const password = document.getElementById('password')
-  const Conformpassword = document.getElementById('Conformpassword')
-  const mainform = document.getElementById('mainform')
+const Email = document.getElementById('Email');
+const password = document.getElementById('password');
+const Conformpassword = document.getElementById('Conformpassword');
+const mainform = document.getElementById('mainform');
 
-  let Emailreg = '/[A-Za-z0-9]+@[A-Za-z0-9]\.[A-Za-z0-9]{3}/'
+let Emailreg = /[A-Za-z0-9]+@[A-Za-z0-9]+\.[A-Za-z0-9]{3}/;
 
-  const message = "/Need to fill all the valuese/"
+const messages = {
+  required: "Need to fill all the values",
+  emailFormat: "Please check the email format",
+  passwordMismatch: "Please check password and confirm password",
+};
 
-  mainform.addEventListener("submit",fromgettingsubmit)
+mainform.addEventListener("submit", fromgettingsubmit);
 
-  function fromgettingsubmit(e)
-  {
-    e.preventDefault();
-    
+function fromgettingsubmit(e) {
+  e.preventDefault();
 
-    console.log(name.value,Email.value,password.value,Conformpassword.value)
+  console.log(name.value, Email.value, password.value, Conformpassword.value);
 
-    if(name.value.trim() == "")
-    {
-      alert("message");
-    }
+  if (name.value.trim() === "") {
+    alert(messages.required);
+  }
 
-    if(!(Email.matches(Email.value.trim()) == Emailreg))
-    {
-      alert("Please check the email format")
-    }
+  if (!Emailreg.test(Email.value.trim())) {
+    alert(messages.emailFormat);
+  }
 
-    if(!(password.value == Conformpassword.value))
-    {
-      alert("please check password and confirm password")
-    }
+  if (!(password.value === Conformpassword.value)) {
+    alert(messages.passwordMismatch);
+  }
+}
+
 
   
 
 
-  }
+
 
 
   
