@@ -7,14 +7,20 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="login.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
     
   </head>
   <body>
     <div class="container">
       <div class="login-box">
         <h2>Login</h2>
-        <form action="" method="post">
+        <form action="" id="mainform" method="post">
           <div class="user-box">
             <input type="text" id="Username" name="" required="" />
             <label>Username</label>
@@ -24,6 +30,8 @@
             <label>Password</label>
             <span class="password-toggle-icon"><i class="fas fa-eye"></i></span>
           </div>
+
+          <div class="sumitandregistor">
           <div id="Submitouterid" onmouseover="rightandleft()">
           <button class="a">
             <span></span>
@@ -31,8 +39,17 @@
             <span></span>
             <span></span>
             Submit</button>
-        </div>
+          </div>
+          
         </form>
+
+        <div class="singup">
+          <a target="_blank" href="./form2.html"
+            >For Registor<span><i class="fa-solid fa-hand-point-left"></i> </span
+          ></a>
+        </div>
+
+      </div>
       </div>
     </div>
     <script src="login.js"></script>

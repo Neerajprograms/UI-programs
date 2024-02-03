@@ -34,11 +34,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-  const name = document.getElementById('username');
+const name = document.getElementById('username');
 const Email = document.getElementById('Email');
 const password = document.getElementById('password');
 const Conformpassword = document.getElementById('Conformpassword');
 const mainform = document.getElementById('mainform');
+
+
+let errors = 0;
 
 let Emailreg = /[A-Za-z0-9]+@[A-Za-z0-9]+\.[A-Za-z0-9]{3}/;
 
@@ -63,10 +66,50 @@ function fromgettingsubmit(e)
 
   if (!Emailreg.test(Email.value.trim())) {
     alert(messages.emailFormat);
+
+      errors++;
   }
+
+  else 
+  {
+    errors = 0;
+  }
+
 
   if (!(password.value === Conformpassword.value)) {
     alert(messages.passwordMismatch);
+
+      errors++;
+  }
+  else 
+  {
+    errors = 0;
+  }
+
+  if(errors == 0)
+  {
+
+   
+    let obj =     
+    {
+      name : name.value,
+      Email: Email.value,
+      password : password.value,
+      Conformpassword : Conformpassword.value
+    }
+
+    localStorage.setItem('userDetails',JSON.stringify(obj))
+    
+    console.log(localStorage)
+
+    document.getElementById("mainform").reset();
+    
+    alert("Registration Successful")
+
+    alert("You can go for the login")
+
+     window.location.href = "./login.html"
+     
   }
 }
 

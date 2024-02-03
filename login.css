@@ -12,7 +12,7 @@ body {
   align-items: center;
   /* background-color: #ebc1c1; */
 
-  background-image: url(./img/wp8189749-avengers-film-characters-wallpapers.jpg);
+  background-image: url(./images/wp8189749-avengers-film-characters-wallpapers.jpg);
   background-size: 1800px 1200px;
   background-repeat: no-repeat;
 }
@@ -206,4 +206,24 @@ a span:nth-child(1) {
 
   padding-left: 200px;
   
+}
+
+.sumitandregistor
+{
+  display: flex;
+}
+.sumitandregistor a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.singup
+{
+  padding-left: 80px;
+  padding-top: 10px;
+}
+.singup a:hover
+{
+  color: #fffbfb;
 }
