@@ -26,5 +26,4 @@ function img()
     
     document.getElementById('btn').style.backgroundColor = '#' + bgcolors;
 
-
 }

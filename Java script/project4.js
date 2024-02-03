@@ -102,9 +102,6 @@ placeslist.forEach(function (place)
     
 
 
-
-
-
     mainvideo.src = place.video
     mainvideo.width = 200;
     mainvideo.play();

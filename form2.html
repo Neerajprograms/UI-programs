@@ -12,8 +12,13 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -23,45 +28,44 @@
   <body>
     <div id="maindiv">
       <div class="inputouter">
+        <h1>Registor Here</h1>
+
         <form action="" class="mainform">
-          <h1>Registor Here</h1>
-
-
           <div class="user-box">
-            <input type="text" name="" required="" />
+            <input type="text" name="" id="username" required="" />
             <label>Username</label>
           </div>
 
-         <div class="user-box" >
-            <input type="text" name="" required="" />
+          <div class="user-box">
+            <input type="text" name="" id="Email" required="" />
             <label>Email</label>
           </div>
 
-          
           <div class="user-box">
             <input type="password" name="" id="password" required="" />
             <label>Password</label>
             <span class="password-toggle-icon"><i class="fas fa-eye"></i></span>
           </div>
-        
+
           <div class="user-box">
             <input type="password" name="" id="Conformpassword" required="" />
             <label>Conform-Password</label>
-            <span class="confirm-password-toggle-icon" id="neeraj"><i class="fas fa-eye"></i></span>
+            <span class="confirm-password-toggle-icon" id="neeraj"
+              ><i class="fas fa-eye"></i
+            ></span>
           </div>
 
           <div class="button">
-              <a href="#">
-                Registor
-              </a>
-          </div>
-
-          <div class="singup">
-
-           <a target="_blank" href="./(login)/login.html">Login <span><i class="fa-solid fa-hand-point-left"></i>
-            </span></a>
+          <button class="innerbutton">
+            Registor</button>
           </div>
         </form>
+
+        <div class="singup">
+          <a target="_blank" href="./(login)/login.html"
+            >Login <span><i class="fa-solid fa-hand-point-left"></i> </span
+          ></a>
+        </div>
       </div>
     </div>
 

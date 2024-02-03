@@ -12,3 +12,4 @@ togglePassword.addEventListener("click", function () {
     togglePassword.classList.add("fa-eye");
   }
 });
+
