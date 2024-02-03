@@ -31,6 +31,12 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
+  const username = document.getElementById('username');
+  const Email = document.getElementById('Email')
+  const password = document.getElementById('password')
+  const Conformpassword = document.getElementById('Conformpassword')
+  const mainform = document.getElementById('mainform')
+
   
 
 

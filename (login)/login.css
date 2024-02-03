@@ -76,7 +76,7 @@ body {
   color: #d4d0d0;
 }
 
-a {
+.a {
   display: inline-block;
   background-color: #333;
   color: #fff;
@@ -91,13 +91,13 @@ a {
   border-radius: 5px;
 }
 
-a:hover {
+.a:hover {
   background-color: #fff;
   color: #333;
   border: 1px solid #333;
 }
 
-a span {
+.a span {
   position: absolute;
   display: block;
 }
@@ -121,7 +121,7 @@ a span:nth-child(1) {
   }
 }
 
-a span:nth-child(2) {
+.a span:nth-child(2) {
   top: -100%;
   right: 0;
   width: 2px;
@@ -141,7 +141,7 @@ a span:nth-child(2) {
   }
 }
 
-a span:nth-child(3) {
+.a span:nth-child(3) {
   bottom: 0;
   right: -100%;
   width: 100%;
@@ -161,7 +161,7 @@ a span:nth-child(3) {
   }
 }
 
-a span:nth-child(4) {
+.a span:nth-child(4) {
   bottom: -100%;
   left: 0;
   width: 2px;
