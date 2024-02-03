@@ -50,7 +50,9 @@ const messages = {
 
 mainform.addEventListener("submit", fromgettingsubmit);
 
-function fromgettingsubmit(e) {
+function fromgettingsubmit(e) 
+{
+    
   e.preventDefault();
 
   console.log(name.value, Email.value, password.value, Conformpassword.value);
