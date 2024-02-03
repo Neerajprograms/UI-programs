@@ -26,7 +26,8 @@ document.querySelector('#Submitouterid').addEventListener('click', function (e) 
   const name = nameInput.value;
   const password = passwordInput.value;
 
-  if (userDetails && name === userDetails.name && password === userDetails.password) {
+  if (userDetails && name === userDetails.name && password === userDetails.password) 
+  {
     alert("Successfully Login");
     document.getElementById("mainform").reset();
     
