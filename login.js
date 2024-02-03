@@ -28,6 +28,8 @@ document.querySelector('#Submitouterid').addEventListener('click', function (e) 
 
   if (userDetails && name === userDetails.name && password === userDetails.password) {
     alert("Successfully Login");
+    document.getElementById("mainform").reset();
+    
   } else {
     alert('Check the entered name and password');
   }
