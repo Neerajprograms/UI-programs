@@ -37,7 +37,14 @@ document.addEventListener("DOMContentLoaded", function() {
   const Conformpassword = document.getElementById('Conformpassword')
   const mainform = document.getElementById('mainform')
 
-  
+  mainform.addEventListener("submit",fromgettingsubmit)
+
+  function fromgettingsubmit()
+  {
+
+    alert("hijojasldkgjajsdlgjl")
+
+  }
 
 
   
