@@ -31,18 +31,42 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
-  const username = document.getElementById('username');
+  const name = document.getElementById('username');
   const Email = document.getElementById('Email')
   const password = document.getElementById('password')
   const Conformpassword = document.getElementById('Conformpassword')
   const mainform = document.getElementById('mainform')
 
+  let Emailreg = '/[A-Za-z0-9]+@[A-Za-z0-9]\.[A-Za-z0-9]{3}/'
+
+  const message = "/Need to fill all the valuese/"
+
   mainform.addEventListener("submit",fromgettingsubmit)
 
-  function fromgettingsubmit()
+  function fromgettingsubmit(e)
   {
+    e.preventDefault();
+    
 
-    alert("hijojasldkgjajsdlgjl")
+    console.log(name.value,Email.value,password.value,Conformpassword.value)
+
+    if(name.value.trim() == "")
+    {
+      alert("message");
+    }
+
+    if(!(Email.matches(Email.value.trim()) == Emailreg))
+    {
+      alert("Please check the email format")
+    }
+
+    if(!(password.value == Conformpassword.value))
+    {
+      alert("please check password and confirm password")
+    }
+
+  
+
 
   }
 
