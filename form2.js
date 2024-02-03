@@ -44,7 +44,7 @@ let Emailreg = /[A-Za-z0-9]+@[A-Za-z0-9]+\.[A-Za-z0-9]{3}/;
 
 const messages = {
   required: "Need to fill all the values",
-  emailFormat: "Please check the email format",
+  emailFormat: "Please check the email format :" +"  "+ "mail@gmail.com",
   passwordMismatch: "Please check password and confirm password",
 };
 
