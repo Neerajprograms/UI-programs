@@ -1,0 +1,28 @@
+*
+{
+    margin: 0px;
+    gap: 0px;
+}
+.maindiv
+{
+    height: 63vh;
+    background-image: url(./img/4k-marvel.jpg);
+    background-size: 1450px 700px;
+    background-repeat: no-repeat;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 240px;
+}
+.innername
+{
+
+    
+    color: white;
+    width: 300px;
+    height: 40px;
+    font-size: x-large;
+    font: bolder;
+    font-weight: 1000px;
+    text-align: center;
+}

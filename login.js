@@ -19,27 +19,38 @@ const passwordInput = document.querySelector('#password');
 
 const userDetails = JSON.parse(localStorage.getItem("userDetails"));
 
+const name = nameInput.value;
+const password = passwordInput.value;
+
 document.querySelector('#Submitouterid').addEventListener('click', function (e) {
   e.preventDefault();
 
   // Get the current values when the button is clicked
-  const name = nameInput.value;
-  const password = passwordInput.value;
-
-  
 
   if (userDetails && name === userDetails.name && password === userDetails.password) 
   {
 
-    let string = userDetails.name.toUpperCase();
+    let string = userDetails.name.charAt(0).toUpperCase() + userDetails.name.slice(1);
+     
 
-    alert( string +"   "+ "Successfully Login");
+    alert("Successfully Login");
     document.getElementById("mainform").reset();
     
   } else {
     alert('Check the entered name and password');
   }
+
 });
+
+  
+
+
+  
+
+
+  
+
+
 
 
 
