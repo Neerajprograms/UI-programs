@@ -23,6 +23,7 @@ function displayContentOneByOne(content, index) {
 }
 
 // Call the function after a delay of 10 seconds
-setTimeout(function () {
+setTimeout(function () 
+{
   displayContentOneByOne("Welcome back " + " " + string, 0);
 }, 3000);

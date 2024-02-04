@@ -192,13 +192,13 @@ a span:nth-child(1) {
 .password-toggle-icon i {
   font-size: 18px;
   line-height: 1;
-  color: #333;
+  color: #000000;
   transition: color 0.3s ease-in-out;
   margin-bottom: 20px;
 }
 
 .password-toggle-icon i:hover {
-  color: #000;
+  color: #faf3f3;
 }
 
 .Submitouter:hover
