@@ -159,3 +159,20 @@ h1
   color: white;
   text-decoration: none;
 }
+
+
+
+@media (4350px < max-width)
+{
+
+  body{
+
+  background-repeat: no-repeat;
+  
+   background-size: 4300px 2300px;    
+  }
+
+
+  
+  
+}
