@@ -117,7 +117,7 @@ h1
   
   .user-box input:focus ~ label,
   .user-box input:valid ~ label {
-    transform: translateY(-20px);
+    transform: translateY(-30px);
     font-size: 15px;
     color: #302f2f;
   }
