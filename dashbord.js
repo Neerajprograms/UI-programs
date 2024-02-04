@@ -26,4 +26,4 @@ function displayContentOneByOne(content, index) {
 setTimeout(function () 
 {
   displayContentOneByOne("Welcome back " + " " + string, 0);
-}, 3000);
+}, 2000);
