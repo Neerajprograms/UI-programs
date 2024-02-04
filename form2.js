@@ -106,7 +106,7 @@ function fromgettingsubmit(e)
     
     alert("Registration Successful")
 
-    alert("You can go for the login")
+    // alert("You can go for the login")
 
      window.location.href = "./login.html"
      
