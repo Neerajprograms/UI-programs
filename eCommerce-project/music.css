@@ -1,0 +1,104 @@
+*
+{
+    gap: 0px;
+    margin: 0px;
+}
+.opstions
+{
+    
+    display: flex;
+    height: 90px;   
+    background-color: black;
+
+}
+.opstions a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.pagelog
+{
+    border: 1px solid white;
+    width: 90px;
+    height: 85px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.btntitle
+{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 400px;
+    text-align: center;
+    
+}
+.alloptions
+{
+    
+    text-decoration: none;
+    gap: 40px;
+    align-items: center;   
+    display: flex;
+    gap:140px;
+    padding-left: 30px;
+}
+.alloptions a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.alloptions a:hover
+{
+    color:bisque;
+    
+}
+
+.mainnavebar
+{
+    background-color: black;
+    border: 1px solid;
+    width: 1365x;
+}
+.btn a{
+
+    font-size: larger;
+    font-weight: 1000;
+}
+
+.carousel-inner
+{
+    
+    height: 400px;
+    display: flex;
+    padding: 50px;
+    display: flex;
+    background-color: antiquewhite;
+}
+.carousel-inner img
+{
+    width: 400px;
+    height: 300px;
+}
+
+.carousel-control-prev:hover    
+{
+
+    border: 1 solid black;
+    width: 40px;
+    background-color: black;
+}
+.carousel-control-next:hover
+{
+    background-color: black;
+    width: 40px;
+    position: absolute;
+}
+
+
