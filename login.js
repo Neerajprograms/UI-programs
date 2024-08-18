@@ -13,39 +13,35 @@ togglePassword.addEventListener("click", function () {
   }
 });
 
-// Assuming 'Username', 'password', and 'Submitouterid' are IDs of the respective elements
 const nameInput = document.querySelector('#Username');
 const passwordInput = document.querySelector('#password');
-
-const userDetails = JSON.parse(localStorage.getItem("userDetails"));
 
 document.querySelector('#Submitouterid').addEventListener('click', function (e) {
   e.preventDefault();
 
-  // Get the current values when the button is clicked
   const name = nameInput.value;
   const password = passwordInput.value;
 
-  if (userDetails && name === userDetails.name && password === userDetails.password) {
-    alert("Successfully Login");
-    document.getElementById("mainform").reset();
-    window.location.href = "./dashbord.html";  // Corrected the spelling of "dashboard"
-  } else {
-    alert('Check the entered name and password');
-  }
+  // Send the data to the server
+  fetch('/submit', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ name, password }),
+  })
+  .then(response => response.json())
+  .then(data => {
+    if (data.success) {
+      alert("Data successfully inserted!");
+      document.getElementById("mainform").reset();
+      window.location.href = "./dashboard.html";
+    } else {
+      alert('Error inserting data');
+    }
+  })
+  .catch((error) => {
+    console.error('Error:', error);
+    alert('An error occurred');
+  });
 });
-
-  
-
-
-  
-
-
-  
-
-
-
-
-
-
- 

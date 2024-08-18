@@ -1,0 +1,44 @@
+body {
+    background-color: white
+}
+
+table {
+    align-items: center;
+}
+
+.table tr {
+    border: 3px solid;
+}
+
+.main img {
+    border-radius: 20px;
+    border: px solid black;
+}
+
+.submit {
+    text-align: center;
+    padding-top: 8px;
+}
+
+.main h2 {
+    text-align: center;
+    text-shadow: 2px 3px 4px;
+}
+.success-message {
+    padding: 5px;
+    margin: 5px 0;
+    font-size:larger;
+    border: 1px solid green;
+    color: green;
+    background-color: #d4edda;
+    text-align:center;
+}
+.faild-message {
+    padding: 5px;
+    margin: 5px 0;
+    font-size: larger;
+    border: 1px solid green;
+    color: red;
+    background-color: mintcream;
+    text-align: center
+}

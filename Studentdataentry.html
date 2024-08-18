@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>studentdataentry</title>
+    <link rel="stylesheet" href="/studentdata.css">
+</head>
+
+<body>
+    <div class="main">
+        <table style="width: 100%">
+            <caption>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEw_0FKCMIfM5Ij7UYylE4o6fsAmqVOYICQ&usqp=CAU"
+                    alt="" /><br />
+                <h2>STUDENT REGISTRATION</h2>
+            </caption>
+
+            <!-- @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="success-message">
+                    @TempData["SuccessMessage"]
+                </div>
+            }
+            @if (TempData["FaileMassage"] != null)
+            {
+                <div class="faild-message">
+                    @TempData["FaileMassage"]
+                </div>
+            } -->
+
+            <tr class="firsttr">
+                <form action="" method="post">
+                    <td style="width: 32%" class="firesttd"></td>
+                    <div class="contenttd">
+                        <td style="width: 23% ;" class="secondtd">
+                            <label for="NAME" class="lable">NAME</label>
+                            <br /><br /><br /><br />
+                            <label for="GENDER">GENDER</label>
+                            <br /><br /><br />
+                            <label for="BORTH">DATE OF BORTH</label>
+                            <br /><br /><br />
+                            <label for="Number">Age</label>
+                            <br><br><br>
+                            <label for="EDUCATION">EDUCATION</label>
+                            <br /><br /><br />
+                            <label for="MOBILE">MOBILE NO</label>
+                            <br /><br /><br />
+                            <label for="EMAIL">EMAIL</label>
+                            <br /><br /><br />
+                            <label for="ADDRESS">ADDRESS</label>
+                            <br /><br /><br />
+                        </td>
+                        <td style="width: 5;" class="therdtd">
+                            <input id="NAME" name="name" type="name" placeholder="Enter Name" />
+                            <br /><br /><br />
+                            <input id="Gender" name="Gender" type="radio" value="Male" />
+                            <label for="Gender">Male</label>
+                            <input type="radio" value="female" name="Gender" id="Gender">
+                            <label for="female">Female</label>
+                            <br /><br /><br />
+                            <input type="date" name="date" id="BORTH" />
+                            <br /><br /><br />
+                            <input type="number" name="Age" id="Age" />
+                            <br><br><br>
+                            <input id="EDUCATION" name="Education" type="education" placeholder="Enter Education" />
+                            <br /><br /><br />
+                            <input id="MOBILE" name="Mobile_number" type="text" placeholder="Enter Mobile number" />
+                            <br /><br /><br />
+                            <input id="EMAIL" name="email" type="email" placeholder="Enter Email" />
+                            <br /><br /><br />
+                            <input id="ADDRESS" name="Address" type="Address" placeholder="Enter Addrass" />
+                            <br /><br /><br />
+
+                        </td>
+                    </div>
+
+            </tr>
+        </table>
+        <div class="submit">
+            <button type="submit" value="SUBMIT" onclick="Submitdata(event)">Submit</button>
+            <input type="reset" value="RESET">
+        </div>
+        </form>
+    </div>
+
+</body>
+<script src="./studentdataenry.js"></script>
+
+</html>
